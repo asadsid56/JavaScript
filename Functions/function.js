@@ -1,7 +1,7 @@
-function hello() {
-    console.log("Hello asad");
-    console.log("Hello jacqueline");
-    console.log("Hello charlotte");
-  }
-  
-hello();
+
+let navigation = document.getElementById("nav"); 
+console.log(navigation); 
+
+function name(params) {
+  navigation.style = ""
+}

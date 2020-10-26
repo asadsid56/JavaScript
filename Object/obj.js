@@ -17,5 +17,5 @@ let person = {
 }
 // console.log(person);
 // document.write(person.Living.Country);     
-
+ 
 
