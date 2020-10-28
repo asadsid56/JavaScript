@@ -1,7 +1,7 @@
-
-let navigation = document.getElementById("nav"); 
-console.log(navigation); 
-
-function name(params) {
-  navigation.style = ""
+function personne() {
+ document.write("hello <br>")
+ document.write("hello <br>")
+ document.write("hello <br>")
+ document.write("hello <br>")
 }
+personne(); 

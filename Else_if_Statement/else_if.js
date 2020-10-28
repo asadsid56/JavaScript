@@ -1,4 +1,4 @@
-let percentage = 55; 
+let percentage = 50(); 
 
 if (percentage >= 90 && percentage <= 100) {
     document.write("You are in Merit");

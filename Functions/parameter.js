@@ -1,4 +1,8 @@
-function person(name, age, city) {
-    console.log(name, age, city)
-  }
-  person("Asad", 23, "Brussels"); 
+
+
+function sum(a, b) {
+  console.log(a + b);
+}
+sum(10,20);
+sum(40,20);
+sum(50,20);
