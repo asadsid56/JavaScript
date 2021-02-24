@@ -1,0 +1,11 @@
+body {
+    margin: 0;padding: 0; background-image: linear-gradient(#086aeb,#01265B); background-repeat: no-repeat;
+}
+
+.carousel {
+    height: 80vh;
+    perspective: 550px;
+}
+.carousel .carousel-item {
+    width: 450px;
+}

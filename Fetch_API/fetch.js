@@ -13,7 +13,8 @@ const upcoming = `https://api.themoviedb.org/3/movie/upcoming?api_key=${apiKey}`
 
 
 // NAV
-let searchButton = document.querySelector("#searchButton");
+let searchButton = document.getElementById("searchButton");
+console.log(searchButton); 
 searchButton.addEventListener("click", () => {
   console.log("clicked");
   fetch(`https://api.themoviedb.org/3/search/movie?api_key=${apiKey}&query=${searchInput}`)
